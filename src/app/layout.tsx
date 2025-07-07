@@ -15,6 +15,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <Link href="/">Home</Link> | <Link href="/cart">View Cart</Link>
           </header> */}
           <Header/>
+         
           
           <div className='' style={{ paddingTop: '80px' }}>
           {children}
