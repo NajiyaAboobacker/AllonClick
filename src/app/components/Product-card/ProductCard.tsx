@@ -29,7 +29,7 @@ export default function ProductCard(props:any) {
             </div>
             </Link>
             <div >
-                 <button className="btn btn-success" onClick={handleAddToCart}>Add to Cart</button>
+                 <button className="btn text-white" style={{backgroundColor:"rgb(47, 20, 104)"}} onClick={handleAddToCart}>Add to Cart</button>
             </div>
            
         </div>

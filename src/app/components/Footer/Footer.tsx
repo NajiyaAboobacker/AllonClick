@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <div className = " mt-auto  text-white " style={{marginBottom:'50px' , bottom:'0' , backgroundColor:" #004D40"}}>
+    <div className = " mt-auto  text-white " style={{marginBottom:'50px' , bottom:'0' , backgroundColor:"rgb(47, 20, 104)"}}>
                
                 <div className="row m-5">
                     <div className="col-lg-4 col-md-6 my-3 ">

@@ -34,7 +34,7 @@ function OfferProducts(props:any) {
             <div><b>Rs.{offerPrice} </b> </div>
             <div>
             
-                <button  onClick= {()=>{
+                <button className='btn text-white'style={{backgroundColor:"rgb(47, 20, 104)"}}  onClick= {()=>{
                     handleAddToCart()}}>Add To Cart</button>
             </div>
         </div>

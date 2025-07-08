@@ -17,7 +17,7 @@ export default function Header() {
     };
   return (
     <>
-        <div className=' d-flex bg-dark  fixed-top' style={{ zIndex: 1030, padding: '10px 0' }} >
+        <div className=' d-flex   fixed-top' style={{ zIndex: 1030, padding: '10px 0', backgroundColor:"rgb(47, 20, 104)"}} >
       
         <img src = "Logo.jpg" width = "50" height = "50"  className='opac ' style={{marginLeft:120}}></img>
         <nav >
