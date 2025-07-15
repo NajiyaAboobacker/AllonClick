@@ -13,7 +13,7 @@ const pricelimit = props.searchParams.pricelimit;
             <div className=' m-1 ' style={{width : 200}} ><Productfilter/></div> 
            
             <div className=''  style={{width : 1000}} >
-              <h3 className=' m-3 text-danger '>Products with Price Less than 100</h3>
+              <h3 className=' m-3 text-da '>Products with Price Less than {pricelimit}</h3>
               <div className='d-flex flex-wrap'>
                 {
                     

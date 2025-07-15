@@ -6,7 +6,7 @@ export type CartItem = {
   name: string;
   price: number;
   quantity: number;
-  image: string; // ✅ make sure image is required
+  image: string; 
 };
 
 export type CartContextType = {
