@@ -18,6 +18,8 @@ export default async function ProductDetails(props:any) {
           <h3  className='mb-3 text-danger'>Product Details</h3>
           <h5>{product.title}</h5>
           <img src = {product.image} width={200} className='m-5'/>
+          <h6>{product.description}</h6>
+          <h4>{product.price}</h4>
           
     </div>
   )
